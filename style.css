@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333;
+}
+
+.container {
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #444;
+    width: 310px;
+    height: 500px;
+    border-radius: 16px;
+    gap: 10px;
+    color: white;
+}
+
+.total-area {
+    margin-top: 30px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.title img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.result-area {
+    width: 290px;
+    height: 300px;
+    background-color: #333;
+    border-radius: 16px;
+    margin-top: 20px;
+    display: none;
+}
+
+.aviso {
+    color: white;
+    margin-top: 20px;
+}
+
+
+.info-city {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+span {
+    font-size: 25px;
+    color: white;
+}
+
+.gen-info--area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 140px;
+}
+
+.info-temp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+}
+
+
+.wind-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-wind {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+
+}
+
+.circle-wind {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+
+.middle-circle {
+    width: 1px;
+    height: 1px;
+    border: 2px solid white;
+    border-radius: 2px;
+}
+
+.line-circle {
+    width: 25px;
+    height: 1px;
+    background-color: white;
+    transform-origin: left;
+    transform: rotate(0deg);
+}
+
+sup {
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.open-weather {
+    font-size: 12px;
+    margin-top: 10px;
+}

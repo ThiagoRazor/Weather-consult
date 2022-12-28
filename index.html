@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+    <title>Weather JS Thiago</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+            <div class="total-area">
+                <div class="title">
+                    <h1>Weather</h1>
+                    <img src="./rainy-day.png" alt="By FreePik: https://www.freepik.com">
+                </div>
+                <form class="search">
+                    <label for="search">Insert a city to consult: <br> </label>
+                    <div class="search-area">
+
+                        <input type="search" id="searchInput">
+                        <button>Search</button>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="result-area">
+                <div class="info-city">
+                    <div class="city-name"> <span> -----, --</span> </div>
+                </div>
+                <div class="gen-info--area">
+                    <div class="info-temp">
+                        <div class="info-temp--name">
+                            Temperatura
+                        </div>
+
+                        <p> --,-- <sup>°C</sup></p>
+
+                        <img src="http://openweathermap.org/img/wn/04d@2x.png" alt="Weather Icon">
+                    </div>
+                    <div class="info-wind">
+                        <div class="info-wind--name">
+                            Vento <br>
+                            --,-- Km/h
+                        </div>
+
+
+
+                        <div class="circle-wind">
+                            <div class="middle-circle">
+                                <div class="line-circle"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="aviso"></div>
+
+
+        </div>
+
+        <footer>
+            Created by: <a href="https://github.com/ThiagoRazor">ThiagoRazor
+                <i class="devicon-github-original"></i>
+            </a>
+
+            <br>
+            <div class="open-weather"> Using an: <a href="https://openweathermap.org">OpenWeather's API
+                </a></div>
+        </footer>
+
+
+    </main>
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
